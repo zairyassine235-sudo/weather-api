@@ -1,4 +1,4 @@
-'''def Bulle(T):
+'''def Bulle(T):#comment
     N=len(T)
     for i in range (N-1,0,-1):
         for j in range (0,i):
@@ -13,7 +13,7 @@ def selection(T):
         for j in range (i+1,N):
             if T[j]<T[m]:
                 m=j
-        if m!=i:
+        if m!=i: 
             T[i],T[m]=T[m],T[i]
     return T
 
